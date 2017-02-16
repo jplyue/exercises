@@ -1,0 +1,9 @@
+*{ box-sizing: border-box;}
+#tetris{ position: relative; width: 440px; overflow: hidden; _height: 1%;}
+
+table{ border-collapse: collapse; }
+#grid{ background: #3C332A; border-collapse: collapse;}
+#grid tr{ overflow: hidden; }
+#grid tr td{ float: left; width: 30px; height: 30px; border: 1px solid #47525A; border-width: 0 1px 1px 0; }
+
+#tetris .operation{ float: right; width: 30%; height: 100%; border: 2px solid #6000BA; }
